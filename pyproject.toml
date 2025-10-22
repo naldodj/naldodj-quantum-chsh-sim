@@ -1,0 +1,24 @@
+[project]
+name = "quantum_sim"
+version = "0.1.0"
+description = "# 🧠 Quantum Bell / CHSH Simulation — *by Naldo / DNA Tech*"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "qutip>=5.0.0",
+]   
+[project.scripts]
+quantum_sim = "quantum_sim.quantum_sim:main"  # Ajustado para o novo caminho
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+packages = ["quantum_sim"]
+package-dir = { "" = "src" }

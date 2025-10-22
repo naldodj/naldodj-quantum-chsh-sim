@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambiente virtual
+.venv/
+
+# Arquivos gerados pelo setuptools
+*.egg-info/
+dist/
+build/
+
+# Arquivos específicos do uv
+uv.lock
+
+# Arquivos temporários e de cache
+*.log
+*.cache
+.pytest_cache/
+*.swp
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs/Editores
+.idea/
+.vscode/
+*.sublime-*
+
+# Arquivos de teste/cobertura
+coverage/
+.coverage
