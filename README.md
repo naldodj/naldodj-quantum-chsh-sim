@@ -149,8 +149,8 @@ O gráfico mostra:
 
 Exemplo:
 
-![Exemplo de gráfico CHSH](docs/example_chsh_graph.png)
-![Exemplo de gráfico CHSH](docs/example_chsh_graph2.png)
+![./example_chsh_graph.png](https://github.com/naldodj/naldodj-quantum-chsh-sim/blob/main/docs/chsh_comparative.png)
+![./example_chsh_graph2.png](https://github.com/naldodj/naldodj-quantum-chsh-sim/blob/main/docs/chsh_comparative2.png)
 
 ---
 
@@ -212,7 +212,7 @@ Essas combinações geram o *ângulo mágico* que leva à violação máxima da 
 ## 🧬 Autor
 
 **Marinaldo (“Naldo DJ”)**
-Founder @ [DNA Tech](https://github.com/)
+Founder @ [DNA Tech](https://github.com/naldodj))
 💻 Especialista em integração ERP TOTVS & Simulações Quantizadas
 🎧 Criador de experiências entre código, som e ciência.
 
