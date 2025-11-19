@@ -74,7 +74,7 @@ pip install qutip numpy matplotlib
 ### 🧩 Passo 1 — Rodar a Partícula A
 
 ```bash
-python quantum_sim.py --type A
+py quantum_sim.py --type A
 ```
 
 ### 🧲 Passo 2 — Rodar a Partícula B
@@ -82,7 +82,7 @@ python quantum_sim.py --type A
 Em outro terminal:
 
 ```bash
-python quantum_sim.py --type B
+py quantum_sim.py --type B
 ```
 
 Durante a execução, você verá logs como:
@@ -118,13 +118,19 @@ CHSH pós-observação: 1.98 (≤ 2 indica colapso)
 Após várias execuções da Partícula B (cada uma salva um “run” no JSON):
 
 ```bash
-python quantum_sim.py --type PLOT
+py quantum_sim.py --type PLOT
 ```
 
 Isso gera o arquivo:
 
 ```
 chsh_comparative.png
+```
+
+Ou, se quiser pular as etapas acima, rode com:
+
+```
+pwsh .\run_multiple.ps1
 ```
 
 ---
@@ -144,6 +150,7 @@ O gráfico mostra:
 Exemplo:
 
 ![Exemplo de gráfico CHSH](docs/example_chsh_graph.png)
+![Exemplo de gráfico CHSH](docs/example_chsh_graph2.png)
 
 ---
 
