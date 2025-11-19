@@ -127,6 +127,10 @@ Isso gera o arquivo:
 chsh_comparative.png
 ```
 
+---
+
+## 🚀 Como Rodar (2)
+
 Ou, se quiser pular as etapas acima, rode com:
 
 ```
